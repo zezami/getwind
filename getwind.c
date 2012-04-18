@@ -25,7 +25,7 @@
 #define TEMPERATURE_OFFSET 8
 #define AVGSPEED_OFFSET 44
 
-#define POST_URL "http://lillis.plakat.se/newData.aspx"
+#define POST_URL "http://some.web.server.com/update.php"
 #define POST_USER "johan"
 #define POST_PASSWORD "blaj"
 
