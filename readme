@@ -1,0 +1,12 @@
+Getwind's purpose is to communicate with a peetbros ultimeter 800 wind station. When the data has
+been gathered it is sent to a webserver for presenting the wind/temperature data.
+
+Setup:
+
+Ultimeter 800 ---serial---> MoXA IA240 --ethernet--> 3g router --> internet
+
+A FOSCAM outdoors camera is also connected to the MoXA and pictures are sent to a web server. 
+
+vnstat is included to see that the 1GB limit on the 3g account is not hit
+
+inadyn is used to keep the dynamic host name updated with the 3g routers current ip adress
