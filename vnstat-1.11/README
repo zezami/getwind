@@ -1,0 +1,67 @@
+(Updated 29.5.2011 for version 1.11)
+
+
+What is vnStat
+::::::::::::::
+
+ In short, vnStat is a console-based network traffic monitor that uses the
+ network interface statistics provided by the kernel as information source.
+ This means that vnStat won't actually be sniffing any traffic and also
+ ensures light use of system resources. Optional image output is available
+ starting from version 1.7.
+
+ See the webpage http://humdi.net/vnstat/ for output examples.
+
+
+Getting started
+:::::::::::::::
+
+ First you should install vnStat. See the INSTALL or INSTALL_BSD file
+ depending on used operating system, it contains all needed information
+ for the installing process. Instructions for upgrading from a previous
+ version are included in the UPGRADE file.
+
+
+Available options and documentation
+:::::::::::::::::::::::::::::::::::
+
+ A list of commonly used options is available with 'vnstat --help'. The
+ complete list can be accessed with 'vnstat --longhelp'. The following
+ man pages are available with more detailed descriptions:
+ 
+    vnstat          general documentation and console query parameters
+	vnstatd         daemon documentation
+	vnstati         image output documentation
+	vnstat.conf     configuration file
+
+
+Usage tips
+::::::::::
+
+ Most vnStat settings can be changed from the config file. The config
+ file is either ~/.vnstatrc or /etc/vnstat.conf depending which one is
+ found first. A new config file can be generated using current settings
+ with the following command:
+
+    vnstat --showconfig >newconfig
+
+ The config file contains comments before any settings describing with
+ the purpose and usage of each setting is. More detailed descriptions
+ about each setting and suggested usage can be found from the vnstat.conf
+ man page.
+
+
+Contacting the author
+:::::::::::::::::::::
+
+ email:    Teemu Toivola <tst at iki dot fi>
+ irc:      Vergo (IRCNet)
+
+ The current version of vnStat is always available from 
+ http://humdi.net/vnstat/
+
+ Discussion forum
+ http://forums.humdi.net/
+
+ Email alerts about new versions are available by subscription at
+ http://freshmeat.net/projects/vnstat/

@@ -1,0 +1,10 @@
+
+If the daemon is running then stop it first.
+
+
+Linux:
+   Run 'make uninstall' and follow the instructions.
+
+BSD:
+   Run 'make bsduninstall' and follow the instructions.
+
